@@ -42,10 +42,10 @@
       <div class="form-group">
         <label class="form-label">পেমেন্ট মেথড</label>
         <select class="form-select" id="paymentMethod" onchange="updateCard()">
-          <option value="bKash">bKash 💗</option>
+          <option value="bKash">bKash 🔴</option>
           <option value="Rocket" selected>Rocket 🟣</option>
           <option value="Nagad">Nagad 🟠</option>
-          <option value="Upay">Upay 🔵</option>
+          <option value="Upay">Upay 🟡</option>
         </select>
       </div>
       <div class="form-group">
@@ -55,11 +55,11 @@
     </div>
 
     <div class="form-group">
-      <label class="form-label">📷 QR কোড (ঐচ্ছিক)</label>
+      <label class="form-label">⛶ QR কোড (ঐচ্ছিক)</label>
       <div class="qr-upload" id="qrDropZone" onclick="document.getElementById('qrInput').click()" ondragover="e => e.preventDefault()" ondrop="handleDrop(event)">
         <input type="file" id="qrInput" accept="image/*" onchange="handleQR(event)">
         <div id="qrUploadContent">
-          <div class="qr-upload-icon">📷</div>
+          <div class="qr-upload-icon">⛆</div>
           <p><strong>QR কোড আপলোড করুন</strong>ক্লিক বা ড্র্যাগ করুন · PNG, JPG, WEBP</p>
         </div>
       </div>
